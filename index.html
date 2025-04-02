@@ -9,8 +9,93 @@
 </head>
 
 <body>
-    <h1>MO 13-3-2025</h1>
+    <!-- NAVEGAÇÃO INÍCIO -->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MO13-3-25</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Livro
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Listar todos</a></li>
+                            <li><a class="dropdown-item" href="#">Cadastrar novo</a></li>
 
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Uusuário" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Senha" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVEGAÇÃO FIM -->
+
+    <!-- INÍCIO DO CONTEÚDO -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="./img/natureza.jpg" class="card-img-top" alt="natureza">
+                    <div class="card-body">
+                        <h5 class="card-title">Natureza</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, inventore. Animi ipsa nisi quasi nihil exercitationem id maiores corporis praesentium.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="./img/natureza.jpg" class="card-img-top" alt="natureza">
+                    <div class="card-body">
+                        <h5 class="card-title">Vida</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquam qui laudantium, libero suscipit explicabo exercitationem adipisci ullam similique minima.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="./img/natureza.jpg" class="card-img-top" alt="natureza">
+                    <div class="card-body">
+                        <h5 class="card-title">Paisagem</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minus consequatur placeat eum amet molestias omnis iure inventore illo facere!.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="./img/natureza.jpg" class="card-img-top" alt="natureza">
+                    <div class="card-body">
+                        <h5 class="card-title">Beleza</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nulla modi repellat architecto perferendis omnis quae fugiat, quisquam sapiente quidem!</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JAVASCRIPT SEMPRE NO FINAL, ANTES DE FECHAR O </body> -->
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
